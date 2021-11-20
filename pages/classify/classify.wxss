@@ -1,0 +1,34 @@
+/* pages/classify/classify.wxss */
+page{
+    background-color: rgb(240, 240, 240) ;
+}
+.cy{
+    margin: auto;
+    display: flex;
+    width: 700rpx;
+    height: 280rpx;
+    background-color: #fff;
+    margin-top: 30rpx;
+    flex-direction: column;
+    justify-content: center;
+}
+.cy view{
+ position: relative;
+ width: 350rpx;
+ height:1.75em ;
+ font-size: 1.75em;
+ top:80rpx;
+ left: 50rpx;
+}
+.cy .smallone{
+    height:0.75em ;
+    font-size: small;
+    color: #8a8a8a;
+}
+.cy image{
+    position: relative;
+    width:300rpx ;
+    height: 300rpx;
+    left: 370rpx;
+    bottom:47rpx;
+}

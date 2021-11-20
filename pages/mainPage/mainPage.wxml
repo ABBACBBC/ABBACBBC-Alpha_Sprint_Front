@@ -1,0 +1,116 @@
+<!--pages/mainPage/mainPage.wxml-->
+<swiper
+ autoplay="{{true}}"
+ circular="{{true}}"
+ indicator-dots="{{true}}"
+ indicator-color="rgba(255,255,255,.3)"
+ indicator-active-color="rgba(255,255,255,1)"
+ interval="2500"
+>
+	<swiper-item>
+		<image mode="widthFix" src="https://pic.imgdb.cn/item/61862fc82ab3f51d91c41a7f.jpg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="https://pic.imgdb.cn/item/61862fe02ab3f51d91c44611.jpg" />
+	</swiper-item>
+	<swiper-item>
+		<image mode="widthFix" src="https://pic.imgdb.cn/item/618630142ab3f51d91c4a0ce.jpg" />
+	</swiper-item>
+  <swiper-item>
+		<image mode="widthFix" src="https://pic.imgdb.cn/item/618630a62ab3f51d91c583e9.jpg" />
+	</swiper-item>
+</swiper>
+<view id='bigone'>
+<view id='qqq'>
+	  <view class='setting' bindtap='jumpClassify'>
+      <image class= 'icon' src='https://s3.bmp.ovh/imgs/2021/11/e5c86711cf352f59.png' ></image>
+      <text class= 'font' >分类</text>
+      </view>
+	  <view class='setting' bindtap='jumpSearch'>
+      <image class= 'icon' src='https://s3.bmp.ovh/imgs/2021/11/686d935f889b5464.png'></image>
+      <text class= 'font' >搜索</text>
+      </view>
+	  <view class='setting' bindtap='jumpMine'>
+      <image class= 'icon' src='https://i.bmp.ovh/imgs/2021/11/8f9fa84eca2133ac.png'></image>
+      <text class= 'font' >我的</text>
+      </view>
+      <view class='setting' bindtap='jumpRank'>
+      <image  class= 'icon' src='https://pic.imgdb.cn/item/618649e42ab3f51d91e85c5c.png'></image>
+      <text class= 'font'>排行</text>
+      </view>
+ </view>
+
+ <view class="marquee_container " style="background:{{broadcast_arr.back_color}};font-size:32rpx;">
+<view class='marquee_text' style='--marqueeWidth--:{{-broadcast_arr.width_mal}}px;--speed--:{{broadcast_arr.time}}s;width:{{broadcast_arr.width_mal}}px;'>
+  <block wx:for="{{data}}">
+	<view style='color:{{broadcast_arr.text_color}};margin-left:{{index!=0?item.starspos*2:0}}rpx;' class="">
+	  {{item.img}}
+	</view>
+  </block>
+</view>
+</view>
+</view>
+<view id='hot'>
+<image src='https://i.bmp.ovh/imgs/2021/11/93e666c37066f9f5.png'></image>
+<text>热门文章</text>
+<text id='more'>查看更多</text>
+</view>
+<scroll-view class="srcolbox" scroll-x	 scroll-with-animation='true'>
+  <view class="item" bindtap="toArtical">
+  <image src='https://i.bmp.ovh/imgs/2021/11/a70ba17446d6f914.jpg'></image>
+  计算机语言的艺术
+  </view>
+  <view class="item">
+  <image src='https://pic.imgdb.cn/item/6185ff6b2ab3f51d917edc9d.jpg'></image>
+  java语言入门到精通
+  </view>
+  <view class="item">
+  <image src='https://i.bmp.ovh/imgs/2021/11/4e431fb22bebe8c2.jpg'></image>
+  大数据分析
+  </view>
+  <view class="item">
+  <image src='https://pic.imgdb.cn/item/618631a12ab3f51d91c6edce.jpg'></image>
+  Python快速入门
+  </view>
+  <view class="item">
+  <image src='https://pic.imgdb.cn/item/618631c92ab3f51d91c725f9.jpg'></image>
+  Web安全入门
+  </view>
+</scroll-view>
+<view id='hot'>
+<image src='https://pic.imgdb.cn/item/618637202ab3f51d91cec4fb.png'></image>
+<text>最新文章</text>
+<text id='more'>查看更多</text>
+</view>
+<view class='new'><image class='newi' src='https://pic.imgdb.cn/item/61863b512ab3f51d91d41f15.jpg'></image>
+<view class='ttt'>
+<text>想要学习STL标准模板库？学这一套就够了。</text>
+<text class='date'>2021.11.7</text>
+</view>
+</view>
+<view class='new'><image class='newi' src='https://pic.imgdb.cn/item/6186307a2ab3f51d91c542f9.jpg'></image>
+<view class='ttt'>
+<text>小白入门javaWeb，内附详细学习流程图。</text>
+<text class='date'>2021.11.7</text>
+</view></view>
+<view class='new'><image class='newi' src='https://pic.imgdb.cn/item/61863be92ab3f51d91d4ebca.jpg'></image>
+<view class='ttt'>
+<text>如何学好编程C语言，大佬教你走捷径！</text>
+<text class='date'>2021.11.6</text>
+</view>
+</view>
+<view class='new'><image class='newi' src='https://pic.imgdb.cn/item/61863c042ab3f51d91d50ea7.jpg'></image>
+<view class='ttt'>
+<text>资深程序员教你如何高效学习Python。</text>
+<text class='date'>2021.11.5</text>
+</view>
+</view>
+<view class='new'><image class='newi' src='https://pic.imgdb.cn/item/6185fe5f2ab3f51d917db4f7.jpg'></image>
+  <view class='ttt'>
+<text>你要的html、js、css全家桶来啦！！</text>
+<text class='date'>2021.11.4</text>
+</view>
+</view>
+
+
+  

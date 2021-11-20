@@ -1,0 +1,57 @@
+page{
+  background-color: rgb(240, 240, 240) ;
+}
+
+.abc{
+ position: relative;
+  width:350px;
+  height: 105px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 20px;
+  padding-top: 12px;
+}
+.abc image{
+  position: relative;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  top:5px;
+  left: 5px;
+}
+.name{
+  font-size: 25px;
+  position: absolute;
+  right: 140px;
+  top:30px
+}
+.sign{
+   font-size: small;
+   position: absolute;
+   top:70px;
+   right:0px
+}
+.bigone{
+  width: 355px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.tabl{
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.iconi{
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+}
+.iconbig{
+  position: relative;
+  left: 180px;
+  width: 25px;
+  height: 25px;
+}

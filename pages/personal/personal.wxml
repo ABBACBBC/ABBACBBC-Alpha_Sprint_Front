@@ -1,0 +1,10 @@
+<view class='abc'>
+<image src='https://pic.imgdb.cn/item/61872a2e2ab3f51d91fe8bc0.jpg'></image>
+<view class='name'>牛码宝宝</view>
+<view class='sign'>世界上没有快乐的地方，只有快乐的人。</view>
+</view>
+<view class='bigone'>
+<view class='tabl'><image class='iconi' src='https://pic.imgdb.cn/item/61872c132ab3f51d910091c1.png'></image>清除缓存<image class='iconbig' src='https://pic.imgdb.cn/item/618731732ab3f51d9106ccba.png'></image></view>
+<view class='tabl'><image class='iconi' src='https://pic.imgdb.cn/item/61872c6c2ab3f51d9100f0c6.png'></image>关于我们<image class='iconbig' src='https://pic.imgdb.cn/item/618731732ab3f51d9106ccba.png'></image></view>
+<view class='tabl'><image class='iconi' src='https://pic.imgdb.cn/item/61872c9c2ab3f51d910125b5.png'></image>退出登录<image class='iconbig' src='https://pic.imgdb.cn/item/618731732ab3f51d9106ccba.png'></image></view>
+</view>

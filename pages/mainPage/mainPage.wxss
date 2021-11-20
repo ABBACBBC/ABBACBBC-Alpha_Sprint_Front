@@ -1,0 +1,158 @@
+/* pages/mainPage/mainPage.wxss */
+page{
+    background-color: rgb(240, 240, 240) ;
+}
+swiper{
+    margin: auto;
+    width: 100%;
+    height: calc(100vw*442/810);
+}
+swiper image{
+    width:100%
+}
+#bigone{
+    width: 720rpx;
+    height: 221rpx;
+    background-color: #fff;
+    border-radius: 25rpx;
+    margin: auto;
+  }
+#qqq{
+margin: auto;
+margin-top: 25rpx;
+width: 680rpx;
+height: 140rpx;
+border-bottom: solid 1rpx rgb(221, 221, 221);
+}
+
+.setting{
+    margin-top: 10rpx;
+    display: inline-block;
+    margin-left: 68rpx;
+    width: 90rpx;
+    height: 90rpx;
+    align-items: center;
+    justify-content: center; 
+  }
+.icon{
+    display: block;
+    width: 90rpx;
+    height: 90rpx;
+}
+.font{
+   display: block;
+   font-size:0.8rem;
+   color:#8a8a8a;
+   text-align: center;
+   
+}
+
+@keyframes around {
+    from {
+      margin-left: 100%;
+    }
+  
+    to {
+      margin-left: var(--marqueeWidth--);
+    }
+  }
+  
+  .marquee_container {
+    padding: 12rpx 0;
+    position: relative;
+    width: 720rpx;
+    height: 50rpx;
+    overflow: hidden;
+    margin: auto;
+    
+  }
+  
+  .marquee_text {
+    display: flex;
+    white-space: nowrap;
+    animation-name: around;
+    animation-duration: var(--speed--);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    line-height: 50rpx;
+  }
+  
+  .marquee_tit {
+    height: 50rpx;
+    line-height: 50rpx;
+    position: absolute;
+    padding-left: 22rpx;
+  }
+  #hot{
+      display: flex;
+      width: 720rpx;
+      margin: auto;
+      margin-top: 40rpx;
+      position: relative;
+  }
+  #hot image{
+      width:50rpx;
+      height:50rpx;
+      margin-right: 15rpx;
+  }
+  #more{
+      font-size: 0.7rem;
+      position: absolute;
+      right: 0;
+      color: #8a8a8a;
+  }
+  .srcolbox {
+    width: 100%;
+    height: 375rpx;
+    white-space: nowrap;
+    margin-top: 20rpx;
+  }
+   
+  .item {
+    width: 500rpx;
+    height: 375rpx;
+    display: inline-block;
+    background-color: #fff;
+    margin-right: 30rpx;
+    text-align: center;
+    line-height: 75rpx;
+    border-radius: 50rpx;
+    overflow: hidden;
+  }
+  .item image{
+    display: block;
+    width:100%;
+    height:300rpx;
+   background-color: #fff;
+  }
+  .new{
+    width: 95%;
+    height: 230rpx;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    padding-top: 7rpx;
+    padding-left: 20rpx;
+    align-items: center;
+    display:flex;
+  }
+  .newi{
+    width:50%;
+    height: 90%;
+  }
+ .ttt{
+   margin-left: 30rpx;
+   display: inline-block;
+   width: 50%;
+   height: 90%;
+ }
+
+ .date{
+   display: block;
+   margin-top: 85rpx;
+   font-size: small;
+   color: #8a8a8a;
+ }
+   
+

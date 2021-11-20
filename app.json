@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/mainPage/mainPage",
+    "pages/searchResults/searchResults",
+    "pages/artical/artical",
+    "pages/classify/classify",
+    "pages/search/search",
+    "pages/personal/personal"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "牛码宝宝的小程序",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#333333",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/mainPage/mainPage",   
+        "text": "首页",
+        "iconPath": "image/首页-fill.png",
+        "selectedIconPath": "image/首页-fill (1).png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "image/分类.png",
+        "selectedIconPath": "image/分类 (1).png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "image/搜索类目.png",
+        "selectedIconPath": "image/搜索类目 (1).png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "image/我的-我的.png",
+        "selectedIconPath": "image/我的-我的 (1).png"
+      }
+    ]
+  }
+
+}
