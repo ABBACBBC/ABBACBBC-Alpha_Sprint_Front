@@ -8,7 +8,7 @@
     "pages/personal/personal"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":" light ",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "牛码宝宝的小程序",
     "navigationBarTextStyle":"black"
@@ -17,12 +17,12 @@
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#cdcdcd",
-    "selectedColor": "#333333",
+    "selectedColor":  "#333333",
     "backgroundColor": "#fff",
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/mainPage/mainPage",   
+        "pagePath":  "pages/mainPage/mainPage",   
         "text": "首页",
         "iconPath": "image/首页-fill.png",
         "selectedIconPath": "image/首页-fill (1).png"
@@ -31,7 +31,7 @@
         "pagePath": "pages/classify/classify",
         "text": "分类",
         "iconPath": "image/分类.png",
-        "selectedIconPath": "image/分类 (1).png"
+        "selectedIconPath":  "image/分类 (1).png"
       },
       {
         "pagePath": "pages/search/search",
