@@ -1,13 +1,13 @@
 <!--pages/classify/classify.wxml-->
-<view class='cy'><view>java</view><view class='smallone'>文章数：10</view><image src='https://pic.imgdb.cn/item/6186744e2ab3f51d912adf02.jpg'></image></view>
-<view class='cy'><view>javaScript</view><view class='smallone'>文章数：5</view><image src='https://pic.imgdb.cn/item/618674af2ab3f51d912b87c6.jpg'></image></view>
-<view class='cy'><view>Vue</view><view class='smallone'>文章数：3</view><image src='https://pic.imgdb.cn/item/618674dc2ab3f51d912bdaff.jpg'></image></view>
-<view class='cy'><view>C语言</view><view class='smallone'>文章数：9</view><image src='https://pic.imgdb.cn/item/618675052ab3f51d912c26e3.jpg'></image></view>
-<view class='cy'><view>C++</view><view class='smallone'>文章数：4</view><image src='https://pic.imgdb.cn/item/618675262ab3f51d912c5c8a.jpg'></image></view>
-<view class='cy'><view>html</view><view class='smallone'>文章数：6</view><image src='https://pic.imgdb.cn/item/6186756d2ab3f51d912cd127.jpg'></image></view>
-<view class='cy'><view>Python</view><view class='smallone'>文章数：4</view><image src='https://pic.imgdb.cn/item/6186741c2ab3f51d912a8543.jpg'></image></view>
-<view class='cy'><view>Linux</view><view class='smallone'>文章数：7</view><image src='https://pic.imgdb.cn/item/618675a12ab3f51d912d2406.jpg'></image></view>
-<view class='cy'><view>嵌入式</view><view class='smallone'>文章数：3</view><image src='https://pic.imgdb.cn/item/61867c7a2ab3f51d91382f29.jpg'></image></view>
-<view class='cy'><view>Mysql</view><view class='smallone'>文章数：5</view><image src='https://pic.imgdb.cn/item/618676312ab3f51d912df15f.jpg'></image></view>
+<view class='cy' bindtap="jumpj"><view>java</view><view class='smallone'>文章数：{{jnum}}</view><image src='https://pic.imgdb.cn/item/6186744e2ab3f51d912adf02.jpg'></image></view>
+<view class='cy' bindtap="jumpjs"><view>javaScript</view><view class='smallone'>文章数：{{jsnum}}</view><image src='https://pic.imgdb.cn/item/618674af2ab3f51d912b87c6.jpg'></image></view>
+<view class='cy' bindtap="jumpv"><view>Vue</view><view class='smallone'>文章数：{{vnum}}</view><image src='https://pic.imgdb.cn/item/618674dc2ab3f51d912bdaff.jpg'></image></view>
+<view class='cy' bindtap="jumpc"><view>C语言</view><view class='smallone'>文章数：{{cnum}}</view><image src='https://pic.imgdb.cn/item/618675052ab3f51d912c26e3.jpg'></image></view>
+<view class='cy' bindtap="jumpcc"><view>C++</view><view class='smallone'>文章数：{{ccnum}}</view><image src='https://pic.imgdb.cn/item/618675262ab3f51d912c5c8a.jpg'></image></view>
+<view class='cy' bindtap="jumph"><view>html</view><view class='smallone'>文章数：{{hnum}}</view><image src='https://pic.imgdb.cn/item/6186756d2ab3f51d912cd127.jpg'></image></view>
+<view class='cy' bindtap="jumpp"><view>Python</view><view class='smallone'>文章数：{{pnum}}</view><image src='https://pic.imgdb.cn/item/6186741c2ab3f51d912a8543.jpg'></image></view>
+<view class='cy' bindtap="jumpl"><view>Linux</view><view class='smallone'>文章数：{{lnum}}</view><image src='https://pic.imgdb.cn/item/618675a12ab3f51d912d2406.jpg'></image></view>
+<view class='cy' bindtap="jumpq"><view>嵌入式</view><view class='smallone'>文章数：{{qnum}}</view><image src='https://pic.imgdb.cn/item/61867c7a2ab3f51d91382f29.jpg'></image></view>
+<view class='cy' bindtap="jumpm"><view>Mysql</view><view class='smallone'>文章数：{{mnum}}</view><image src='https://pic.imgdb.cn/item/618676312ab3f51d912df15f.jpg'></image></view>
 
 

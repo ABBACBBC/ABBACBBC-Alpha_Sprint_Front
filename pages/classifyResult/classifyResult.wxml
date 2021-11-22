@@ -1,6 +1,6 @@
-<!--pages/searchResults/searchResults.wxml-->
+<!--pages/classifyResult/classifyResult.wxml-->
 <view class='new'
-wx:for="{{searchlist}}"
+wx:for="{{classlist}}"
 wx:key="{{item.id}}"
 bindtap="jumpArtical"
 data-id="{{item.id}}"

@@ -1,0 +1,93 @@
+
+<view class='new'
+data-id="{{ranklist[0].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[0].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[0].title}}</text>
+<text class='date'>点击量：{{ranklist[0].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199ab432ab3f51d91e15dce.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[1].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[1].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[1].title}}</text>
+<text class='date'>点击量：{{ranklist[1].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199add92ab3f51d91e236a0.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[2].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[2].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[2].title}}</text>
+<text class='date'>点击量：{{ranklist[2].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199adf02ab3f51d91e240b0.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[3].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[3].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[3].title}}</text>
+<text class='date'>点击量：{{ranklist[3].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199ae092ab3f51d91e24a0e.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[4].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[4].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[4].title}}</text>
+<text class='date'>点击量：{{ranklist[4].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199aebb2ab3f51d91e2972c.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[5].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[5].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[5].title}}</text>
+<text class='date'>点击量：{{ranklist[5].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199ae2f2ab3f51d91e257b4.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[6].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[6].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[6].title}}</text>
+<text class='date'>点击量：{{ranklist[6].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199ae2f2ab3f51d91e257b9.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[7].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[7].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[7].title}}</text>
+<text class='date'>点击量：{{ranklist[7].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199ae2f2ab3f51d91e257c0.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[8].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[8].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[8].title}}</text>
+<text class='date'>点击量：{{ranklist[8].read_times}}</text>
+<image src='https://pic.imgdb.cn/item/6199ae2f2ab3f51d91e257cb.png'></image>
+</view>
+</view>
+<view class='new'
+data-id="{{ranklist[9].id}}" bindtap="toArtical"
+><image class='newi' src='{{ranklist[9].pic}}'></image>
+<view class='ttt'>
+<text>{{ranklist[9].title}}</text>
+<text class='date'>点击量：{{ranklist[9].read_times}}</text>
+<image class ='sss' src='https://pic.imgdb.cn/item/6199ae922ab3f51d91e2870b.png'></image>
+<image src='https://pic.imgdb.cn/item/6199aea52ab3f51d91e28d27.png'></image>
+</view>
+</view>
+<view class='back' bindtap="backTo"><image src="https://pic.imgdb.cn/item/61990e782ab3f51d91a5d88b.png"></image>返回</view>

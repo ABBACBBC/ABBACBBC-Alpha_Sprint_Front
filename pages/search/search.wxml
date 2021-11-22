@@ -5,7 +5,7 @@
             <view class="search-bar__form">
                 <view class="search-bar__box">
                     <icon class="icon-search_in-box" type="search" size="20"></icon>
-                    <input type="text" class="search-bar__input" placeholder="请输入关键字"/>
+                    <input type="text" class="search-bar__input" placeholder="请输入关键字" confirm-type="搜索" bindconfirm="toSearchResult"/>
                 </view>
                 <label class="search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
                     <icon class="icon-search" type="search" size="20"></icon>
@@ -17,5 +17,5 @@
     </view>
 </view>
 <view class='keyword-search'>搜索发现</view>
-<view class='keyword-lab'>java快速入门</view>
-<view class='keyword-lab'>js进阶教程</view>
+<view class='keyword-lab' bindtap="toArtical" data-id="{{c}}">{{a}}</view>
+<view class='keyword-lab' bindtap="toArtical" data-id="{{d}}">{{b}}</view>

@@ -5,14 +5,38 @@ Page({
      * 页面的初始数据
      */
     data: {
-
+    artical:null,
+    text:[]
     },
-
+    backTo(){
+      wx.switchTab({
+        url: '../mainPage/mainPage',
+        
+      })
+    },
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
+        var id=options.id;
+        wx.request({
+            url: 'http://127.0.0.1:8000/api/article/',
+            success:(result)=>{
+            var list=null;
+            for (var index in result.data) {
+            if(id==result.data[index].id){
+            list=result.data[index];
+            this.setData({
+                artical:list
+          })
+            }
+            }
+            this.setData({
+                text:this.data.artical.content.split(/\r\n/g)
+          })
 
+            }
+          })
     },
 
     /**

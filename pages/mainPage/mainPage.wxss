@@ -89,6 +89,7 @@ border-bottom: solid 1rpx rgb(221, 221, 221);
       margin: auto;
       margin-top: 40rpx;
       position: relative;
+      align-items: center;
   }
   #hot image{
       width:50rpx;
@@ -99,6 +100,7 @@ border-bottom: solid 1rpx rgb(221, 221, 221);
       font-size: 0.7rem;
       position: absolute;
       right: 0;
+      bottom: 10rpx;
       color: #8a8a8a;
   }
   .srcolbox {

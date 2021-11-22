@@ -11,7 +11,10 @@ Page({
           linkurl: "",
           linkname: "",
           starspos: 0,
-          back_color: "gold"
+          back_color: "gold",
+          hotlist:[],
+          newlist:[],
+          runlist:[]
         }
       ],
       broadcast_arr: {
@@ -48,10 +51,33 @@ Page({
         data: ititdata
       })
       wx.request({
-        url: 'url',
+        url: 'http://127.0.0.1:8000/api/article/',
         success:(result)=>{
-          console.log(result);
+         var rlist=[];
+         var hlist=[];
+         var nlist=[];
+          for (var index in result.data) {
+            if('16'==result.data[index].category){
+              rlist.push(result.data[index])
+              this.setData({
+                runlist:rlist
+            })
+          }
+          if('15'==result.data[index].category){
+            nlist.push(result.data[index])
+            this.setData({
+               newlist:nlist
+          })
         }
+        if('14'==result.data[index].category){
+          hlist.push(result.data[index])
+          this.setData({
+            hotlist:hlist
+        })
+      }
+        }
+        console.log(this.data.hotlist)
+      }
       })
     },
     jumpClassify(){
@@ -86,15 +112,25 @@ jumpMine(){
 },
 jumpRank(){
   wx.redirectTo({
-      url: '../artical/artical',
+      url: '../rank/rank',
     })
 },
-toArtical(){
-  wx.redirectTo({
-    url: '../artical/artical',
-  })
+toArtical(e){
+  var idd=e.currentTarget.dataset.id;
+    wx.redirectTo({
+        url: '../artical/artical?id='+idd,
+      })
 },
-
+toHot(){
+  wx.redirectTo({
+      url: '../classifyResult/classifyResult?cat='+'2',
+    })
+},
+toNew(){
+  wx.redirectTo({
+      url: '../classifyResult/classifyResult?cat='+'3',
+    })
+},
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
